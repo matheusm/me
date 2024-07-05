@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Frontend Engineer",
+    "company": "Herospark",
+    "location": "Remote",
+    "date": "Sep 2022 - Present",
+    "description": [
+      "Developed a Ecommerce software focused in checkout application with NuxtJS and Typescript",
+      "Developed and maintained the frontend of the company's main product, a web-based platform for managing and analyzing data.",
+      "Improved HeroWallet application, resulting in a 20% reduction in load times and an 15% increase in user engagement.",
+      "Increased checkout application page speed with server side rendering",
+      "Collaborated with the design team to implement new features and improve the user experience.",
+      "Worked closely with the backend team to integrate new APIs and improve the performance of the application.",
+      "Collaborated remotely with stakeholders, resulting in a 25% increase in user satisfaction scores."
+    ],
+    "technologies": [
+      "NuxtJS",
+      "VueJS",
+      "React",
+      "React Native",
+      "Typescript",
+      "TailwindCSS",
+      "Jest",
+      "Cypress",
+      "Git",
+      "Docker"
+    ]
+  },
+  {
+    "title": "Frontend Engineer",
+    "company": "Weni",
+    "location": "Remote",
+    "date": "Apr 2021 - Sep 2022",
+    "description": [
+      "Spearheaded the development of a unified Weni Dashboard, consolidating three subsystems into a user-friendly application, reducing user onboarding time by 30%.",
+      "Created a new subsystem that increased user engagement by 40%, resulting in a 20% increase in customer retention.",
+      "Increased all test coverage of all apps.",
+      "Involved in agile software development practices, participating in daily stand-ups, grooming sessions, code reviews and mentoring junior developers.",
+      "Conducted remote interviews with external clients, leading to a 15% increase in product feature adoption."
+    ],
+    "technologies": [
+      "VueJS",
+      "Design System",
+      "Storybook",
+      "Typescript",
+      "Jest",
+      "Git",
+      "Docker",
+      "JavaScript",
+      "CSS"
+    ]
+  },
+  {
+    "title": "Frontend Engineer",
+    "company": "Yooh",
+    "location": "Remote",
+    "date": "Oct 2020 - Mar 2021",
+    "description": [
+      "Designed and developed a social networking platform using React and Typescript, resulting in a 50% increase in user sign-ups within the first month.",
+      "Involved in Agile software development practices, participating in daily stand-ups, grooming sessions and code reviews.",
+      "Implemented integration tests using Cypress, reducing the number of post-release bugs by 30%.",
+      "Led a team that achieved a 95% code coverage rate with Jest."
+    ],
+    "technologies": [
+      "React",
+      "NodeJS",
+      "CSS",
+      "Typescript"
+    ]
+  },
+  {
+    "title": "Software Development Intern",
+    "company": "Unimed Maceió",
+    "location": "Maceió, Alagoas, Brazil",
+    "date": "Sep 2017 - Mar 2018",
+    "description": [
+      "Completed an internship focused on problem-solving with Delphi and Oracle, resulting in a 25% improvement in data retrieval efficiency."
+    ],
+    "technologies": [
+      "Delphi",
+      "Oracle"
+    ]
+  }
+]
