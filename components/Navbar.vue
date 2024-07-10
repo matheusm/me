@@ -54,6 +54,7 @@ nav {
   top: 0;
   right: 0;
   position: absolute;
+  z-index: 10;
 }
 
 @media screen and (max-width: 580px){

@@ -128,4 +128,10 @@ const { data } = await useAsyncData("carrer-all", async () => {
   }
 
 }
+
+@media screen and (max-width: 580px){
+  .timeline .title-wrapper {
+    margin-left: -32px;
+  }
+}
 </style>

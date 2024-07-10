@@ -12,7 +12,7 @@
 
     <h2 class="md:text-2xl text-xl mb-3">What I'm Doing</h2>
 
-    <div class="grid grid-cols-2 gap-x-4 gap-y-4">
+    <div class="grid md:grid-cols-2 gap-x-4 gap-y-4">
       <Card v-for="card of cards" class="flex gap-4">
         <UIcon :name="card.icon" class="text-primary max-h-8 max-w-8 w-full h-full" />
         <div class="text-neutral-300">
