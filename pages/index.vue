@@ -26,10 +26,10 @@
 
 <script setup>
 const cards = ref([
-  { icon: 'i-heroicons-computer-desktop', title: "Web Development", description: "I'm a and delivering beautiful code." },
-  { icon: 'i-heroicons-rocket-launch', title: "Mentorship", description: "I'm skilled in ReactJS, fostering collaboration, agile methodologies." },
-  { icon: 'i-heroicons-camera', title: "Photography", description: "I'm skilled in VueJS, fostering collaboration, agile methodologies." },
-  { icon: 'i-heroicons-academic-cap', title: "Studing", description: "Strong communication and focused on project success." },
+  { icon: 'i-heroicons-computer-desktop', title: "Web Development", description: "High-quality development of sites at the professional level." },
+  { icon: 'i-heroicons-rocket-launch', title: "Mentorship", description: "Mentorship for beginners devs at @adplist" },
+  { icon: 'i-heroicons-camera', title: "Photography", description: "I make high-quality photos of any category at a professional level." },
+  { icon: 'i-heroicons-academic-cap', title: "Studing", description: "Always studing and evolving myself" },
 ])
 </script>
 

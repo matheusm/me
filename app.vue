@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <AsideApp />
-    <main class="relative mb-20 md:mb-0">
+    <main class="relative mb-20 md:mb-0 overflow-hidden">
       <Navbar />
       <NuxtPage/>
     </main>
