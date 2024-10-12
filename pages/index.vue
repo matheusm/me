@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10 h-full">
+  <div class="p-10 h-full transition-all">
     <h1>About me</h1>
 
     <p>Front-end developer with 4 years of experience in high level applications and delivering beautiful code.</p>

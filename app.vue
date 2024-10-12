@@ -9,6 +9,9 @@
 </template>
 
 <style>
+html {
+  scrollbar-gutter: stable;
+}
 body {
   -webkit-font-smoothing: antialiased;
   @apply text-neutral-800 dark:text-zinc-300;
@@ -55,5 +58,19 @@ body {
     padding: 10px;
     max-width: 100%;
   }
+}
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(5px);
 }
 </style>

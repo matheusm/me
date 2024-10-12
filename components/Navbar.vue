@@ -4,13 +4,13 @@
       class="flex w-max items-center px-5 rounded-bl-lg border-b border-l border-opacity-20 border-zinc-900 dark:border-zinc-100 dark:border-opacity-20 text-sm font-medium text-gray-800 bg-white/90 dark:bg-neutral-800/90 dark:text-zinc-300"
     >
       <li v-for="item in items" :key="item.path">
-        <ULink
+        <NuxtLink
           :to="item.path"
           class="relative px-3 text-base py-6 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
           active-class="text-primary-600 dark:text-primary-400"
         >
           {{ item.name }}
-        </ULink>
+        </NuxtLink>
       </li>
       <li>
         <ClientOnly>
@@ -41,11 +41,9 @@ const isDark = computed({
 
 
 const items = [
-  { name: "About me", path: "/", icon: "i-heroicons-academic-cap" },
-  {
-    name: "Resume",
-    path: "/resume",
-  },
+  { name: "About me", path: "/" },
+  { name: "Resume", path: "/resume" },
+  { name: "Projects", path: "/projects"}
 ];
 </script>
 

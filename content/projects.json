@@ -1,0 +1,12 @@
+[
+  {
+    "title": "DT Money (React + Vite)",
+    "link": "https://dt-money-orpin-three.vercel.app/",
+    "image": "/projects/dt-money.png"
+  },
+  {
+    "title": "Pomodoro (React + Vite)",
+    "link": "https://pomodoro.martinscode.dev/",
+    "image": "/projects/pomodoro.png"
+  }
+]

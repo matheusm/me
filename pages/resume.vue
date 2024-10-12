@@ -1,5 +1,5 @@
 <template>
-  <article class="timeline p-10">
+  <article class="timeline p-10 transition-all ease-out">
     <h1>Resume</h1>
 
     <div class="title-wrapper">
