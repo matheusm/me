@@ -1,84 +1,72 @@
 [
   {
-    "title": "Frontend Engineer",
+    "title": "Senior Software Engineer",
+    "company": "TOTVS",
+    "location": "Remote",
+    "date": "Jan 2026 – Present",
+    "description": [
+      "Became the team's go-to for AI-assisted engineering: published model guidance adopted by the engineering channel the same day and created a Cursor skill mapping billing-monolith domains, integrations, and maintenance; peers reused the workflow, including for a pricing overview.",
+      "Led corporate SSO with Okta (OIDC) for multi-tenant billing: IdP group-to-company mapping, company picker, last-company memory, feature flags, Datadog/Metabase instrumentation, and help-center documentation; closed five delivery waves from April to July 2026.",
+      "Owned the Vue-to-React migration of the billing monolith, covering shared styles, i18n, subscription UI, and Rails templates; reported 75% completion in October 2026 and aligned reviews so new UI shipped in React.",
+      "Drove frontend delivery of a financial-panel microfrontend with BFF authentication, host-product hydration, permissions from GET /me, and a team-unblocking test script.",
+      "Defined the architecture for a standalone webhooks Vite SPA reusing billing's Okta setup and shipped a working prototype the same day; also converted a product document into a working UI prototype in minutes.",
+      "Shipped 61 merged PRs across three repositories, 63 completed tickets, nine closed waves, and 33 peer reviews (Jan–Oct 2026); conducted senior frontend interviews and shared structured hiring feedback with management."
+    ]
+  },
+  {
+    "title": "Full Stack Engineer",
     "company": "Herospark",
     "location": "Remote",
-    "date": "Sep 2022 - Present",
+    "date": "Sep 2022 – Dec 2025",
     "description": [
-      "Developed a Ecommerce software focused in checkout application with NuxtJS and Typescript",
-      "Developed and maintained the frontend of the company's main product, a web-based platform for managing and analyzing data.",
-      "Improved HeroWallet application, resulting in a 20% reduction in load times and an 15% increase in user engagement.",
-      "Increased checkout application page speed with server side rendering",
-      "Collaborated with the design team to implement new features and improve the user experience.",
-      "Worked closely with the backend team to integrate new APIs and improve the performance of the application.",
-      "Collaborated remotely with stakeholders, resulting in a 25% increase in user satisfaction scores."
-    ],
-    "technologies": [
-      "NuxtJS",
-      "VueJS",
-      "React",
-      "React Native",
-      "Typescript",
-      "TailwindCSS",
-      "Jest",
-      "Cypress",
-      "Git",
-      "Docker"
+      "Owned architecture and end-to-end implementation of a Nuxt.js 3 and TypeScript checkout application through production.",
+      "Improved checkout performance via server-side rendering, increasing page speed and reducing load times.",
+      "Built full-stack features including Ruby on Rails backend logic for checkout and members-area functionality.",
+      "Developed a React Native (Expo) members area and integrated Chatwoot into a React Native wallet app.",
+      "Drove SEO enhancements and partnered with product, design, and support, contributing to a 25% increase in user satisfaction."
+    ]
+  },
+  {
+    "title": "Senior Frontend Engineer",
+    "company": "Drakkar",
+    "location": "Remote (Part-time)",
+    "date": "Nov 2024 – Nov 2025",
+    "description": [
+      "Led a React and Leaflet product redesign, owning the implementation from planning to delivery.",
+      "Analyzed KML geospatial data with Turf.js and built map-based notes, visualizations, and image generation.",
+      "Delivered eight back-office submodules, streamlining internal workflows; aligned priorities with remote stakeholders."
     ]
   },
   {
     "title": "Frontend Engineer",
     "company": "Weni",
     "location": "Remote",
-    "date": "Apr 2021 - Sep 2022",
+    "date": "Apr 2021 – Sep 2022",
     "description": [
-      "Spearheaded the development of a unified Weni Dashboard, consolidating three subsystems into a user-friendly application, reducing user onboarding time by 30%.",
-      "Created a new subsystem that increased user engagement by 40%, resulting in a 20% increase in customer retention.",
-      "Increased all test coverage of all apps.",
-      "Involved in agile software development practices, participating in daily stand-ups, grooming sessions, code reviews and mentoring junior developers.",
-      "Conducted remote interviews with external clients, leading to a 15% increase in product feature adoption."
-    ],
-    "technologies": [
-      "VueJS",
-      "Design System",
-      "Storybook",
-      "Typescript",
-      "Jest",
-      "Git",
-      "Docker",
-      "JavaScript",
-      "CSS"
+      "Built a unified dashboard combining three subsystems, reducing user onboarding time by 30%.",
+      "Delivered a new subsystem that increased engagement by 40% and customer retention by 20%.",
+      "Expanded automated test coverage, contributed code reviews and agile ceremonies, and mentored junior engineers.",
+      "Conducted remote customer interviews that contributed to a 15% increase in feature adoption."
     ]
   },
   {
     "title": "Frontend Engineer",
     "company": "Yooh",
     "location": "Remote",
-    "date": "Oct 2020 - Mar 2021",
+    "date": "Oct 2020 – Mar 2021",
     "description": [
-      "Designed and developed a social networking platform using React and Typescript, resulting in a 50% increase in user sign-ups within the first month.",
-      "Involved in Agile software development practices, participating in daily stand-ups, grooming sessions and code reviews.",
-      "Implemented integration tests using Cypress, reducing the number of post-release bugs by 30%.",
-      "Led a team that achieved a 95% code coverage rate with Jest."
-    ],
-    "technologies": [
-      "React",
-      "NodeJS",
-      "CSS",
-      "Typescript"
+      "Built a React and TypeScript social networking platform, driving 50% more sign-ups in its first month.",
+      "Added Cypress integration tests, reducing post-release bugs by 30%; helped achieve 95% Jest coverage.",
+      "Participated in daily stand-ups, grooming sessions, and code reviews."
     ]
   },
   {
-    "title": "Software Development Intern",
+    "title": "Software Engineering Intern",
     "company": "Unimed Maceió",
-    "location": "Maceió, Alagoas, Brazil",
-    "date": "Sep 2017 - Mar 2018",
+    "location": "Remote",
+    "date": "Sep 2017 – Mar 2018",
     "description": [
-      "Completed an internship focused on problem-solving with Delphi and Oracle, resulting in a 25% improvement in data retrieval efficiency."
-    ],
-    "technologies": [
-      "Delphi",
-      "Oracle"
+      "Worked on backend problem-solving with Delphi and Oracle, improving data retrieval efficiency by 25%."
     ]
   }
 ]

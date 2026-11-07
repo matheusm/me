@@ -2,6 +2,8 @@
   <article class="timeline p-10 transition-all ease-out">
     <h1>Resume</h1>
 
+    <p v-if="resume?.summary" class="summary dark:text-neutral-400 text-neutral-700">{{ resume.summary }}</p>
+
     <div class="title-wrapper">
       <div class="icon-box dark:bg-neutral-800 bg-neutral-200 dark:text-primary text-purple-900">
         <UIcon name="i-heroicons-book-open" class="text-2xl"/>
@@ -10,19 +12,63 @@
       <h3 class="h3">Experience</h3>
     </div>
     <ol class="timeline-list">
-      <li class="timeline-item" v-for="item in data">
+      <li class="timeline-item" v-for="item in data" :key="`${item.company}-${item.date}`">
 
-        <h4 class="h4 timeline-item-title ">{{ item.title }} </h4>
+        <h4 class="h4 timeline-item-title">{{ item.title }} <span class="company">— {{ item.company }}</span></h4>
         <span class="dark:text-purple-400 text-purple-800">{{ item.date }}</span> <br>
-        <span class="text-sm">{{ item.location }}</span> 
+        <span class="text-sm">{{ item.location }}</span>
 
 
-        <p class="timeline-text dark:text-neutral-400 text-neutral-700" v-for="desc in item.description">
+        <p class="timeline-text dark:text-neutral-400 text-neutral-700" v-for="desc in item.description" :key="desc">
           - {{ desc }}
         </p>
 
       </li>
     </ol>
+
+    <template v-if="resume">
+      <section class="section">
+        <div class="title-wrapper">
+          <div class="icon-box dark:bg-neutral-800 bg-neutral-200 dark:text-primary text-purple-900">
+            <UIcon name="i-heroicons-code-bracket" class="text-2xl"/>
+          </div>
+          <h3 class="h3">Skills</h3>
+        </div>
+        <ul class="section-list">
+          <li v-for="skill in resume.skills" :key="skill.label" class="dark:text-neutral-400 text-neutral-700">
+            <strong class="dark:text-zinc-200 text-neutral-900">{{ skill.label }}:</strong> {{ skill.items }}
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="title-wrapper">
+          <div class="icon-box dark:bg-neutral-800 bg-neutral-200 dark:text-primary text-purple-900">
+            <UIcon name="i-heroicons-academic-cap" class="text-2xl"/>
+          </div>
+          <h3 class="h3">Education</h3>
+        </div>
+        <ul class="section-list">
+          <li v-for="edu in resume.education" :key="edu.degree" class="dark:text-neutral-400 text-neutral-700">
+            <strong class="dark:text-zinc-200 text-neutral-900">{{ edu.degree }}</strong> — {{ edu.school }}
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="title-wrapper">
+          <div class="icon-box dark:bg-neutral-800 bg-neutral-200 dark:text-primary text-purple-900">
+            <UIcon name="i-heroicons-language" class="text-2xl"/>
+          </div>
+          <h3 class="h3">Languages</h3>
+        </div>
+        <ul class="section-list">
+          <li v-for="lang in resume.languages" :key="lang.name" class="dark:text-neutral-400 text-neutral-700">
+            <strong class="dark:text-zinc-200 text-neutral-900">{{ lang.name }}</strong> — {{ lang.level }}
+          </li>
+        </ul>
+      </section>
+    </template>
   </article>
 </template>
 
@@ -31,6 +77,8 @@ const { data } = await useAsyncData("carrer-all", async () => {
   const it = await queryContent("/carrer").find()
   return it[0].body
 });
+
+const { data: resume } = await useAsyncData("resume-extra", () => queryContent("/resume").findOne());
 
 </script>
 
@@ -97,6 +145,25 @@ const { data } = await useAsyncData("carrer-all", async () => {
 .timeline-item-title {
   line-height: normal;
   font-size: 1.5rem;
+}
+
+.timeline-item-title .company {
+  font-weight: 400;
+  opacity: .7;
+}
+
+.summary {
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 @media (min-width: 580px) {

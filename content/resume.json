@@ -1,0 +1,17 @@
+{
+  "summary": "Full Stack Engineer with 5+ years of experience building and owning production features end-to-end, from frontend interfaces to backend services and APIs, across web and mobile. Proven track record designing and shipping applications with React, Vue/Nuxt.js, Next.js, TypeScript, and Ruby on Rails in remote teams. Leads AI-assisted engineering adoption through practical tooling, documentation, and shared workflows. Comfortable owning ambiguous problems, modernizing legacy systems, and partnering with product, design, and business stakeholders.",
+  "skills": [
+    { "label": "Languages & Frameworks", "items": "JavaScript, TypeScript, ReactJS, VueJS, NuxtJS, NextJS, HTML, CSS, Vite" },
+    { "label": "Backend & APIs", "items": "Ruby on Rails, NodeJS, JSON, Keycloak, Okta (OIDC), API integration, BFF" },
+    { "label": "AI Tools & Agents", "items": "Claude Code, Cursor, Codex, LLM-assisted engineering, agent workflows" },
+    { "label": "Testing & Observability", "items": "Jest, Cypress, CI/CD, Datadog, Metabase" },
+    { "label": "Practices & Collaboration", "items": "Agile, SEO, UI/UX, Product Ownership, SaaS, microfrontends, cross-functional collaboration" }
+  ],
+  "education": [
+    { "degree": "Bachelor's in Computer Science", "school": "Universidade Tiradentes, Alagoas, Brazil" }
+  ],
+  "languages": [
+    { "name": "English", "level": "Advanced" },
+    { "name": "Portuguese", "level": "Native" }
+  ]
+}

@@ -9,7 +9,7 @@
       
       <div>
         <h1>Matheus Martins</h1>
-        <span>Frontend Engineer</span>
+        <span>Full Stack Engineer</span>
       </div>
     </div>
       
